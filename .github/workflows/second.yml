@@ -28,7 +28,7 @@ jobs:
     - name: print date
       run: date
   job4:
-    name: Ubuntu date
+    name: Ubuntu date 2
     needs: [job1, job2, job3]
     runs-on: ubuntu-latest
     steps:
